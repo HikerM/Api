@@ -8,7 +8,7 @@ services:
       - "443:443"
     volumes:
       - /Users/hiker/Desktop/Project/nginx/conf/shopApi.conf:/etc/nginx/nginx.conf
-      - /Users/hiker/Desktop/Project/Code/shop:/var/www
+      - /Users/hiker/Desktop/Project/Code/Api:/var/www
     depends_on:
       - php
     networks:
